@@ -1,5 +1,5 @@
-# Manu
-This is a collection of colour palettes for fdata visualisation derived from photos of birds native to New Zealand.
+# Manu <img src="man/figures/LOGO.jpg" align="right" width="180"/>
+This is a collection of colour palettes for data visualisation using R. They are derived from photos of birds native to New Zealand.
 
 ```diff
 - THIS REPO IS A WORK IN PROGRESS!!!!
@@ -13,7 +13,7 @@ devtools::install_github("G-Thomson/Manu")
 ```
 
 ![](https://github.com/G-Thomson/Manu/blob/main/images/Hihi.png)
-
+<img src="man/figures/Hihi.png"/>
 ![](images/Hoiho.png)
 
 ![](images/Kaka.png)
