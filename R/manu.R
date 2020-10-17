@@ -32,9 +32,9 @@ manu_palettes <- list(
 #' @return A vector of colours.
 #' @export
 #' @examples
-#' get_palette("Hoiho")
-#' get_palette("Takahe")
-#' get_palette("Kereru")
+#' get_pal("Hoiho")
+#' get_pal("Takahe")
+#' get_pal("Kereru")
 get_pal <- function(name) {
 
   pal <- manu_palettes[[name]]

@@ -1,0 +1,12 @@
+home:
+  title: Manu - NZ native bird palettes
+  description:  A collection of colour palettes for fdata visualisation derived from photos of birds native to New Zealand.
+
+template:
+  opengraph:
+    image:
+      src: images/LOGO.jpg
+      alt: "Kereru"
+    twitter:
+      creator: "@GojThomson"
+      card: summary_large_image
