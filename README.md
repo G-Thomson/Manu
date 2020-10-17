@@ -12,34 +12,34 @@ You can install it using the `devtools` package:
 devtools::install_github("G-Thomson/Manu")
 ```
 
-![](https://github.com/G-Thomson/Manu/blob/main/images/Hihi.png)
 <img src="man/figures/Hihi.png"/>
-![](images/Hoiho.png)
 
-![](images/Kaka.png)
+<img src="man/figures/Hoiho.png"/>
 
-![](images/Kakariki.png)
+<img src="man/figures/Kaka.png"/>
 
-![](images/Kea.png)
+<img src="man/figures/Kakariki.png"/>
 
-![](images/Kereru.png)
+<img src="man/figures/Kea.png"/>
 
-![](images/Korimako.png)
+<img src="man/figures/Kereru.png"/>
 
-![](images/Korora.png)
+<img src="man/figures/Korimako.png"/>
 
-![](images/Kotare.png)
+<img src="man/figures/Korora.png"/>
 
-![](images/Putangitangi.png)
+<img src="man/figures/Kotare.png"/>
 
-![](images/Takehe.png)
+<img src="man/figures/Putangitangi.png"/>
 
-![](images/Takapu.png)
+<img src="man/figures/Takehe.png"/>
 
-![](images/Titipounamu.png)
+<img src="man/figures/Takapu.png"/>
 
-![](images/Tui.png)
+<img src="man/figures/Titipounamu.png"/>
 
-![](images/Pepetuna.png)
+<img src="man/figures/Tui.png"/>
 
-![](images/Pohutukawa.png)
+<img src="man/figures/Pepetuna.png"/>
+
+<img src="man/figures/Pohutukawa.png"/>
