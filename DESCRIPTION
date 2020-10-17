@@ -1,0 +1,15 @@
+Package: Manu
+Title: NZ Bird Colour Palettes
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Geoffrey",
+           family = "Thomson",
+           role = c("aut", "cre"),
+           email = "geoffrey.thomson@yale.edu",
+           comment = c(Twitter = "@GojThomson"))
+Description: This is a collection of colour palettes for fdata visualisation derived from photos of birds native to New Zealand.
+License: GNU GENERAL PUBLIC LICENSE Version 3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
