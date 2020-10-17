@@ -11,3 +11,5 @@ You can install it using the `devtools` package:
 # install.packages("devtools")
 devtools::install_github("G-Thomson/Manu")
 ```
+
+![](images/Hihi.png)
