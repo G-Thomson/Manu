@@ -12,7 +12,7 @@ You can install it using the `devtools` package:
 devtools::install_github("G-Thomson/Manu")
 ```
 
-![](images/Hihi.png)
+![](https://github.com/G-Thomson/Manu/blob/main/images/Hihi.png)
 
 ![](images/Hoiho.png)
 
