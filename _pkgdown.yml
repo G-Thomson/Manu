@@ -8,7 +8,7 @@ template:
       src: images/LOGO.jpg
       alt: "Kereru"
     twitter:
-      creator: "@GojThomson"
+      creator: "Twitter: @GojThomson"
       card: summary_large_image'
   params:
     bootswatch: flatly
