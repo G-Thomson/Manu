@@ -197,7 +197,9 @@ The developer also does not experience colour vision deficiency but checked simu
 
 Thanks go to Dr Tara McAllister ([@taramcallister4](https://twitter.com/taramcallister4)) for conceiving of this idea and for helping to collect photos. Thank you also to all those on Twitter who shared their photos or expressed interest and support.
 
-The [`wesanderson`](https://github.com/karthik/wesanderson) colour paltette package, created by Karthik Ram ([@_inundata](https://twitter.com/_inundata)) should also be acknowledged as this package draws heavily from it. .  
+The [`wesanderson`](https://github.com/karthik/wesanderson) colour paltette package, created by Karthik Ram ([@_inundata](https://twitter.com/_inundata)) should also be acknowledged as this package draws heavily from it. 
+
+The logo is adapted from the [Pigeon](https://thenounproject.com/term/pigeon/136533/) icon by [Nicole Macdonald](https://www.behance.net/nicolemacdonald) and made avaliable under a Creative Commons CCBY lisense. Here colour and the title have been added.
 
 ## Contribute
 ***
