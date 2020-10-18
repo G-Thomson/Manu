@@ -9,4 +9,6 @@ template:
       alt: "Kereru"
     twitter:
       creator: "@GojThomson"
-      card: summary_large_image
+      card: summary_large_image'
+    params:
+      bootswatch: flatly
