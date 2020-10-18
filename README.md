@@ -11,13 +11,13 @@ This package was the idea of Dr Tara McAllister ([@taramcallister4](https://twit
 
 ## Installation
 ***
-This package is hosted on Github and can install it using the `devtools` package:
+This package is hosted on Github and can install it using the `devtools` (>= v2.3.2) package:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("G-Thomson/Manu")
 ```
-
+(Note: If this doesn't work, update `devtools` as Github recently changed the term it uses for the primary version of a source code repository)
 ## Usage
 ***
 The colour palettes are stored as a list named `manu_palettes`. Thus you can see a list of the avaliable palettes like so:
