@@ -36,7 +36,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">Manu</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.1</span>
       </span>
     </div>
 
@@ -76,14 +76,18 @@
 <a href="#manu-" class="anchor"></a>Manu <img src="reference/figures/LOGO.jpg" align="right" width="180">
 </h1></div>
 <hr>
-<p>This is a collection of colour palettes for data visualisation using R. They are derived from photos of birds native to New Zealand.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode diff"><code class="sourceCode diff"><span id="cb1-1"><a href="#cb1-1"></a><span class="st">- THIS REPO IS A WORK IN PROGRESS!!!!</span></span></code></pre></div>
+<p>New Zealand is home to a great number of native bird species, a majority being endemic to the islands. Many of these species are notable for their bright and beautiful plumage.</p>
+<p>Using photos of birds native to New Zealand this <code>R</code> package is a selection of colour palettes constructed by extracting distinct colours which are chracteristic of these birds.</p>
+<p>This package was the idea of Dr Tara McAllister (<a href="https://twitter.com/taramcallister4">@taramcallister4</a>) and is implemented like the <a href="https://github.com/karthik/wesanderson"><code>wesanderson</code></a> colour paltette package created by Karthik Ram (<a href="https://twitter.com/_inundata">@_inundata</a>).</p>
+<img src="reference/figures/In_a_tree.jpg" width="75%/"><p style="font-size: 0.9rem;font-style: italic;">
+Photo:<a href="https://www.flickr.com/photos/60164380@N03/48549024571/in/album-72157647281732710/">“Kererū”</a> contributed by <a href="https://www.flickr.com/photos/60164380@N03/albums/72157647281732710/with/48549024571/">Tony Stoddard</a> of <a href="https://kererudiscovery.org.nz/">KererūDiscovery</a> (<a href="https://twitter.com/KereruDiscovery">@KereruDiscovery</a>)
+</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
 <hr>
-<p>You can install it using the <code>devtools</code> package:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit">
+<p>This package is hosted on Github and can install it using the <code>devtools</code> package:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit">
 <span class="co"># install.packages("devtools")</span>
 <span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"G-Thomson/Manu"</span><span class="op">)</span></pre></div>
 </div>
@@ -96,10 +100,11 @@
 <h2 class="hasAnchor">
 <a href="#colour-palettes" class="anchor"></a>Colour palettes</h2>
 <hr>
+<p>Graphs shown below used to illustrate the colour templates use data from the <a href="https://www.spatialanalytics.co.nz/packages/nzcensr/"><code>nzcensr</code></a>, <a href="https://allisonhorst.github.io/palmerpenguins/"><code>palmerpenguins</code></a> and <a href="https://github.com/jennybc/gapminder"><code>gapminder</code></a> packages.</p>
 <div id="hihi---notiomystis-cincta---stichbird" class="section level3">
 <h3 class="hasAnchor">
 <a href="#hihi---notiomystis-cincta---stichbird" class="anchor"></a>Hihi - <em>Notiomystis cincta</em> - Stichbird</h3>
-<div class="sourceCode" id="cb3"><pre class="downlit">
+<div class="sourceCode" id="cb2"><pre class="downlit">
 <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#070604"</span>, <span class="st">"#F9E211"</span>, <span class="st">"#797A87"</span>, <span class="st">"#A8ACAD"</span>, <span class="st">"#D6CBB5"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Hihi.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/16520061@N08/5211267422">“Stitchbird (Notiomystis cincta)”</a><span> by <a href="https://www.flickr.com/photos/16520061@N08">David Cook Wildlife Photography</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY-NC 2.0</a>
@@ -108,6 +113,8 @@ Photo:<a href="https://www.flickr.com/photos/16520061@N08/5211267422">“Stitchb
 <div id="hoiho---megadyptes-antipodes---yellow-eyed-penguin" class="section level3">
 <h3 class="hasAnchor">
 <a href="#hoiho---megadyptes-antipodes---yellow-eyed-penguin" class="anchor"></a>Hoiho - <em>Megadyptes antipodes</em> - Yellow-eyed penguin</h3>
+<div class="sourceCode" id="cb3"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#CABEE9"</span>, <span class="st">"#7C7189"</span>, <span class="st">"#FAE093"</span>, <span class="st">"#D04E59"</span>, <span class="st">"#BC8E7D"</span>, <span class="st">"#2F3D70"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Hoiho.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/88123769@N02/29063661044">“Yellow-eyed penguin (Megadyptes antipodes)”</a><span> by <a href="https://www.flickr.com/photos/88123769@N02">Bernard Spragg</a></span> is licensed under <a href="https://creativecommons.org/licenses/cc0/1.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC0 1.0</a>
 </p>
@@ -116,12 +123,18 @@ Photo:<a href="https://www.flickr.com/photos/88123769@N02/29063661044">“Yellow
 <h3 class="hasAnchor">
 <a href="#k%C4%81k%C4%81---nestor-meridionalis" class="anchor"></a>Kākā - <em>Nestor meridionalis</em>
 </h3>
-<p><img src="reference/figures/Kaka.png"></p>
+<div class="sourceCode" id="cb4"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#A7473A"</span>, <span class="st">"#4B5F6C"</span>, <span class="st">"#B09B37"</span>, <span class="st">"#955F47"</span>, <span class="st">"#A8B9CB"</span><span class="op">)</span></pre></div>
+<img src="reference/figures/Kaka.png"><p style="font-size: 0.9rem;font-style: italic;">
+Photo:<a href="https://twitter.com/Thoughtfulnz/status/1316520927752986626?s=20">“Kākā”</a> contributed by <a href="https://twitter.com/Thoughtfulnz">David Hood</a>
+</p>
 </div>
 <div id="kākāriki---cyanoramphus-spp" class="section level3">
 <h3 class="hasAnchor">
 <a href="#k%C4%81k%C4%81riki---cyanoramphus-spp" class="anchor"></a>Kākāriki - <em>Cyanoramphus Spp.</em>
 </h3>
+<div class="sourceCode" id="cb5"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#44781E"</span>, <span class="st">"#A1B654"</span>, <span class="st">"#2C3B75"</span>, <span class="st">"#B8321A"</span>, <span class="st">"#565052"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Kakariki.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/22357152@N02/5840424985">“Kākāriki”</a><span> by <a href="https://www.flickr.com/photos/22357152@N02">SidPix</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY 2.0</a>
 </p>
@@ -130,6 +143,8 @@ Photo:<a href="https://www.flickr.com/photos/22357152@N02/5840424985">“Kākār
 <h3 class="hasAnchor">
 <a href="#kea---nestor-notabilis" class="anchor"></a>Kea - <em>Nestor notabilis</em>
 </h3>
+<div class="sourceCode" id="cb6"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#6C803A"</span>, <span class="st">"#7B5C34"</span>, <span class="st">"#AB7C47"</span>, <span class="st">"#CCAE42"</span>, <span class="st">"#D73202"</span>,  <span class="st">"#272318"</span>, <span class="st">"#D3CDBF"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Kea.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/88123769@N02/9112326315">“Kea. New Zealand Alpine Parrot. (Nestor notabilis)”</a><span> by <a href="https://www.flickr.com/photos/88123769@N02">Bernard Spragg</a></span> is licensed under <a href="https://creativecommons.org/licenses/cc0/1.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC0 1.0</a>
 </p>
@@ -137,16 +152,29 @@ Photo:<a href="https://www.flickr.com/photos/88123769@N02/9112326315">“Kea. Ne
 <div id="kererū---hemiphaga-novaeseelandiae---nz-wood-pigeon" class="section level3">
 <h3 class="hasAnchor">
 <a href="#kerer%C5%AB---hemiphaga-novaeseelandiae---nz-wood-pigeon" class="anchor"></a>Kererū - <em>Hemiphaga novaeseelandiae</em> - NZ wood pigeon</h3>
-<p><img src="reference/figures/Kereru.png"></p>
+<div class="sourceCode" id="cb7"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#325756"</span>, <span class="st">"#7d9fc2"</span>, <span class="st">"#C582B2"</span>, <span class="st">"#51806a"</span>, <span class="st">"#4d5f8e"</span>, <span class="st">"#A092B7"</span><span class="op">)</span></pre></div>
+<img src="reference/figures/Kereru.png"><p style="font-size: 0.9rem;font-style: italic;">
+Photo:<a href="https://twitter.com/edufk/status/1316594859373813760?s=20">“Kererū”</a> contributed by <a href="https://twitter.com/edufk">Gir</a>
+</p>
+<p>The original mock up of a NZ bird colour palettes posted on <a href="https://twitter.com/GojThomson/status/1316407456092893186?s=20">Twitter</a> included a Kererū palette which said they liked. It was ultimately deemed to have too much green in it but it remains in the package as <code>"Kereru_orig"</code> if people still wish to use it.</p>
+<div class="sourceCode" id="cb8"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#5a8b8a"</span>, <span class="st">"#337166"</span>, <span class="st">"#2C5F44"</span>, <span class="st">"#c47c94"</span>, <span class="st">"#43394C"</span><span class="op">)</span></pre></div>
 </div>
 <div id="korimako---anthornis-melanura---nz-bellbird" class="section level3">
 <h3 class="hasAnchor">
 <a href="#korimako---anthornis-melanura---nz-bellbird" class="anchor"></a>Korimako - <em>Anthornis melanura</em> - NZ bellbird</h3>
-<p><img src="reference/figures/Korimako.png"></p>
+<div class="sourceCode" id="cb9"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#757b16"</span>,<span class="st">"#4F651D"</span>,  <span class="st">"#798C8B"</span>, <span class="st">"#2F638F"</span>, <span class="st">"#091A26"</span>, <span class="st">"#490B0A"</span><span class="op">)</span></pre></div>
+<img src="reference/figures/Korimako.png"><p style="font-size: 0.9rem;font-style: italic;">
+Photo:<a href="https://twitter.com/edufk/status/1316594859373813760?s=20">“Korimako”</a> contributed by <a href="https://twitter.com/edufk">Gir</a>
+</p>
 </div>
 <div id="kororā---eudyptula-minor---little-blue-penguin" class="section level3">
 <h3 class="hasAnchor">
 <a href="#koror%C4%81---eudyptula-minor---little-blue-penguin" class="anchor"></a>Kororā - <em>Eudyptula minor</em> - Little blue penguin</h3>
+<div class="sourceCode" id="cb10"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#85BEDC"</span>,  <span class="st">"#3A383F"</span>, <span class="st">"#A6B0BB"</span>, <span class="st">"#CCBBCD"</span>, <span class="st">"#647588"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Korora.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/17251154@N00/14317774458">“Blue Penguin”</a><span> by <a href="https://www.flickr.com/photos/17251154@N00">Syd3r</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY-NC-SA 2.0</a>
 </p>
@@ -154,6 +182,8 @@ Photo:<a href="https://www.flickr.com/photos/17251154@N00/14317774458">“Blue P
 <div id="kōtare---todiramphus-sanctus---kingfisher" class="section level3">
 <h3 class="hasAnchor">
 <a href="#k%C5%8Dtare---todiramphus-sanctus---kingfisher" class="anchor"></a>Kōtare - <em>Todiramphus sanctus</em> - Kingfisher</h3>
+<div class="sourceCode" id="cb11"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#214d65"</span>, <span class="st">"#287DAB"</span>, <span class="st">"#E5BF86"</span>, <span class="st">"#B09771"</span>, <span class="st">"#624B27"</span>, <span class="st">"#CACFD0"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Kotare.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/7725552@N06/39520482181">“Sacred Kingfisher (Todiramphus sanctus)”</a><span> by <a href="https://www.flickr.com/photos/7725552@N06">Wade Tregaskis</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY-NC 2.0</a>
 </p>
@@ -161,6 +191,8 @@ Photo:<a href="https://www.flickr.com/photos/7725552@N06/39520482181">“Sacred 
 <div id="pūtangitangi---tadorna-variegata--paradise-shelduck" class="section level3">
 <h3 class="hasAnchor">
 <a href="#p%C5%ABtangitangi---tadorna-variegata--paradise-shelduck" class="anchor"></a>Pūtangitangi - <em>Tadorna variegata</em> -paradise shelduck</h3>
+<div class="sourceCode" id="cb12"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#AA988A"</span>, <span class="st">"#B66A40"</span>, <span class="st">"#2F414B"</span>, <span class="st">"#2B4B3C"</span>, <span class="st">"#7A3520"</span>, <span class="st">"#7B8BA5"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Putangitangi.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://commons.wikimedia.org/w/index.php?curid=4209145">“</a><a href="File:Paradise-Shelduck-pair.jpg" class="uri">File:Paradise-Shelduck-pair.jpg</a>”<span> by <a href="https://www.flickr.com/photos/68608379@N00">Michael Hamilton</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-sa/2.0?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY-SA 2.0</a>
 </p>
@@ -169,6 +201,8 @@ Photo:<a href="https://commons.wikimedia.org/w/index.php?curid=4209145">“</a><
 <h3 class="hasAnchor">
 <a href="#takah%C4%93---porphyrio-hochstetteri" class="anchor"></a>Takahē - <em>Porphyrio hochstetteri</em>
 </h3>
+<div class="sourceCode" id="cb13"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#DD3C51"</span>, <span class="st">"#313657"</span>, <span class="st">"#1F6683"</span>, <span class="st">"#6C90B9"</span>, <span class="st">"#D1C7B5"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Takahe.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/43309517@N08/33913464651">“Takahē”</a><span> by <a href="https://www.flickr.com/photos/43309517@N08">Kathrin &amp; Stefan</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY-NC-ND 2.0&lt;/a
 </a></p>
@@ -176,6 +210,8 @@ Photo:<a href="https://www.flickr.com/photos/43309517@N08/33913464651">“Takah�
 <div id="takapu---morus-serrator---australasian-gannet" class="section level3">
 <h3 class="hasAnchor">
 <a href="#takapu---morus-serrator---australasian-gannet" class="anchor"></a>Takapu - <em>Morus serrator</em> - Australasian gannet</h3>
+<div class="sourceCode" id="cb14"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#DEB478"</span>, <span class="st">"#976533"</span>, <span class="st">"#D3D5D0"</span>,<span class="st">"#76716E"</span>,<span class="st">"#272623"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Takapu.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/73162606@N00/777082140">“New Zealand 2006/2007”</a><span> by <a href="https://www.flickr.com/photos/73162606@N00">Travelling Pooh</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY-NC-ND 2.0</a>
 </p>
@@ -183,6 +219,8 @@ Photo:<a href="https://www.flickr.com/photos/73162606@N00/777082140">“New Zeal
 <div id="titipounamu---acanthisitta-chloris---rifleman" class="section level3">
 <h3 class="hasAnchor">
 <a href="#titipounamu---acanthisitta-chloris---rifleman" class="anchor"></a>Titipounamu - <em>Acanthisitta chloris</em> - Rifleman</h3>
+<div class="sourceCode" id="cb15"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#3E4331"</span>, <span class="st">"#AD6B17"</span>, <span class="st">"#66743B"</span>, <span class="st">"#D0C471"</span>, <span class="st">"#CCB62F"</span>, <span class="st">"#BAC4C2"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Titipounamu.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/38053299@N08/46535373755">“Rifleman (Titipounamu)”</a><span> by <a href="https://www.flickr.com/photos/38053299@N08">vil.sandi</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nd/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY-ND 2.0</a>
 </p>
@@ -191,6 +229,8 @@ Photo:<a href="https://www.flickr.com/photos/38053299@N08/46535373755">“Riflem
 <h3 class="hasAnchor">
 <a href="#t%C5%AB%C4%AB---prosthemadera-novaeseelandiae" class="anchor"></a>Tūī - <em>Prosthemadera novaeseelandiae</em>
 </h3>
+<div class="sourceCode" id="cb16"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#7ACCD7"</span>, <span class="st">"#115896"</span>, <span class="st">"#7C6C65"</span>, <span class="st">"#4C4C53"</span>, <span class="st">"#BA2F00"</span>, <span class="st">"#21282F"</span><span class="op">)</span></pre></div>
 <p><img src="reference/figures/Tui.png"></p>
 <p style="font-size: 0.9rem;font-style: italic;">
 Photo (left):<a href="https://twitter.com/temihinga/status/1316522196928393216?s=20">“Tūī”</a> contributed by <a href="https://twitter.com/temihinga?s=20">Te Mihinga</a>&lt;; Photo (right):<a href="https://www.flickr.com/photos/22357152@N02/6570554993">“Tūī feeding on Harakeke nectar”</a><span> by <a href="https://www.flickr.com/photos/22357152@N02">SidPix</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY 2.0</a>
@@ -204,13 +244,18 @@ Photo (left):<a href="https://twitter.com/temihinga/status/1316522196928393216?s
 <div id="pepetuna---aenetus-virescens---puriri-moth" class="section level3">
 <h3 class="hasAnchor">
 <a href="#pepetuna---aenetus-virescens---puriri-moth" class="anchor"></a>Pepetuna - <em>Aenetus virescens</em> - Puriri moth</h3>
+<div class="sourceCode" id="cb17"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#719E56"</span>, <span class="st">"#71702F"</span>, <span class="st">"#947163"</span>, <span class="st">"#623711"</span>, <span class="st">"#425266"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Pepetuna.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/87615810@N00/2900862167">“Puriri Moth - closeup”</a><span> by <a href="https://www.flickr.com/photos/87615810@N00">Stefan Marks</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY-NC-ND 2.0</a>
 </p>
 </div>
 <div id="pōhutukawa---metrosideros-excelsa" class="section level3">
 <h3 class="hasAnchor">
-<a href="#p%C5%8Dhutukawa---metrosideros-excelsa" class="anchor"></a>Pōhutukawa - “Metrosideros excelsa”</h3>
+<a href="#p%C5%8Dhutukawa---metrosideros-excelsa" class="anchor"></a>Pōhutukawa - <em>Metrosideros excelsa</em>
+</h3>
+<div class="sourceCode" id="cb18"><pre class="downlit">
+<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#5FA1F7"</span>, <span class="st">"#83A552"</span>, <span class="st">"#3D4928"</span>, <span class="st">"#9B1F1A"</span>, <span class="st">"#B19F8E"</span>, <span class="st">"#4E0B0C"</span><span class="op">)</span></pre></div>
 <img src="reference/figures/Pohutukawa.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/26231603@N06/5243000365">“Pohutukawa”</a><span> by <a href="https://www.flickr.com/photos/26231603@N06">iainurquhart</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&amp;atype=html" style="margin-right: 5px;">CC BY 2.0</a>
 </p>
@@ -220,6 +265,8 @@ Photo:<a href="https://www.flickr.com/photos/26231603@N06/5243000365">“Pohutuk
 <h2 class="hasAnchor">
 <a href="#accessibility" class="anchor"></a>Accessibility</h2>
 <hr>
+<p>This package is intended to be a fun addition tool for <code>R</code> data visualisation and was limited to colours which could be extracted from the selected photos. Efforts were made to make these usable colour palettes, but they do not conform to the Web Content Accessibility Guidelines (WCAG).</p>
+<p>The developer also does not experience colour vision deficiency but checked simulated palettes using the <a href="https://emilhvitfeldt.github.io/prismatic/">Prismatic</a> package. If this is a consideration in your visualisation then the <code>Hihi</code>, <code>Kotare</code>, <code>Takapu</code> or <code>Tui</code> palettes might be the most suitable.</p>
 </div>
 <div id="acknowledgements" class="section level2">
 <h2 class="hasAnchor">
