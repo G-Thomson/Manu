@@ -10,5 +10,5 @@ template:
     twitter:
       creator: "@GojThomson"
       card: summary_large_image'
-    params:
-      bootswatch: flatly
+  params:
+    bootswatch: flatly
