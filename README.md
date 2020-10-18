@@ -46,6 +46,7 @@ Since the `get_pal()` function returns the colour palettes as a character vector
 plot(mtcars$disp, mtcars$hp, col = get_pal("Hoiho")[factor(mtcars$carb)], pch = 19, cex = 3 )
 
 # ggplot2 implementation
+library(ggplot2)
 ggplot(mtcars, aes(disp, hp, colour = factor(carb))) +
    geom_point(size = 3) +
    scale_colour_manual(values = get_pal("Hoiho"))
