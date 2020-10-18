@@ -1,6 +1,6 @@
 Package: Manu
 Title: NZ Bird Colour Palettes
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Geoffrey",
            family = "Thomson",
