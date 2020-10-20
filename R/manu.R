@@ -7,6 +7,7 @@ manu_palettes <- list(
   Hihi = c("#070604", "#F9E211", "#797A87", "#A8ACAD", "#D6CBB5"),
   Hoiho = c("#CABEE9", "#7C7189", "#FAE093", "#D04E59", "#BC8E7D", "#2F3D70"),
   Kaka =  c("#A7473A", "#4B5F6C", "#B09B37", "#955F47", "#A8B9CB"),
+  Kakapo = c("#7D9D33", "#CED38C", "#DCC949", "#BCA888", "#CD8862", "#775B24"),
   Kakariki =  c("#44781E", "#A1B654", "#2C3B75", "#B8321A", "#565052"),
   Kea = c("#6C803A", "#7B5C34", "#AB7C47", "#CCAE42", "#D73202",  "#272318", "#D3CDBF"),
   Kereru = c("#325756", "#7d9fc2", "#C582B2", "#51806a", "#4d5f8e", "#A092B7"),

@@ -24,8 +24,8 @@ The colour palettes are stored as a list named `manu_palettes`. Thus you can see
 ```r
 library(Manu)
 names(manu_palettes)
- [1] "Hihi"         "Hoiho"        "Kaka"         "Kakariki"     "Kea"          "Kereru"       "Kereru_orig"  "Korimako"     "Korora"      
-[10] "Kotare"       "Putangitangi" "Takahe"       "Takapu"       "Titipounamu"  "Tui"          "Pepetuna"     "Pohutukawa" 
+ [1] "Hihi"         "Hoiho"        "Kaka"         "Kakapo"       "Kakariki"     "Kea"          "Kereru"       "Kereru_orig"  "Korimako"    
+[10] "Korora"       "Kotare"       "Putangitangi" "Takahe"       "Takapu"       "Titipounamu"  "Tui"          "Pepetuna"     "Pohutukawa"  
 ```
 
 A helper function `get_pal()` returns the desited colour palette as a vector: For example:
@@ -75,6 +75,12 @@ c("#A7473A", "#4B5F6C", "#B09B37", "#955F47", "#A8B9CB")
 ```
 <img src="man/figures/Kaka.png"/>
 <p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://twitter.com/Thoughtfulnz/status/1316520927752986626?s=20">"Kākā"</a> contributed by <a href="https://twitter.com/Thoughtfulnz">David Hood</a></p>
+### Kākāpō - *Strigops habroptilus*
+```r
+c("#7D9D33", "#CED38C", "#DCC949", "#BCA888", "#CD8862", "#775B24")
+```
+<img src="man/figures/Kakapo.png"/>
+<p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://twitter.com/takapodigs/status/1318318044167372800?s=20">"Kākāpō"</a> contributed by <a href="https://twitter.com/takapodigs">Dr Andrew Digby</a></p>
 ### Kākāriki - *Cyanoramphus Spp.*
 ```r
 c("#44781E", "#A1B654", "#2C3B75", "#B8321A", "#565052")
@@ -94,7 +100,7 @@ c("#325756", "#7d9fc2", "#C582B2", "#51806a", "#4d5f8e", "#A092B7")
 <img src="man/figures/Kereru.png"/>
 <p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://twitter.com/edufk/status/1316594859373813760?s=20">"Kererū"</a> contributed by <a href="https://twitter.com/edufk">Gir</a></p>
 
-The original mock up of a NZ bird colour palettes posted on [Twitter](https://twitter.com/GojThomson/status/1316407456092893186?s=20) included a Kererū palette which said they liked. It was ultimately deemed to have too much green in it but it remains in the package as `"Kereru_orig"` if people still wish to use it.
+The original mock up of a NZ bird colour palettes posted on [Twitter](https://twitter.com/GojThomson/status/1316407456092893186?s=20) included a Kererū palette which many said they liked. It was ultimately deemed to have too much green in it but it remains in the package as `"Kereru_orig"` if people still wish to use it.
 ```r
 c("#5a8b8a", "#337166", "#2C5F44", "#c47c94", "#43394C")
 ```
