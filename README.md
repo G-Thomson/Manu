@@ -2,9 +2,9 @@
 ***
 New Zealand is home to a great number of native bird species, a majority being endemic to the islands. Many of these species are notable for their bright and beautiful plumage. 
 
-Using photos of birds native to New Zealand, this `R` package contains a selection of colour palettes constructed by extracting distinct colours chracteristic of these birds. 
+Using photos of birds native to New Zealand, this `R` package contains a selection of colour palettes constructed by extracting distinct colours characteristic of these birds. 
 
-This package was the idea of Dr Tara McAllister ([@taramcallister4](https://twitter.com/taramcallister4)) and is implemented like the<br/> [`wesanderson`](https://github.com/karthik/wesanderson) colour paltette package, created by Karthik Ram ([@_inundata](https://twitter.com/_inundata)).  
+This package was the idea of Dr Tara McAllister ([@taramcallister4](https://twitter.com/taramcallister4)) and is implemented like the<br/> [`wesanderson`](https://github.com/karthik/wesanderson) colour palette package, created by Karthik Ram ([@_inundata](https://twitter.com/_inundata)).  
 
 <img src="man/figures/In_a_tree.jpg" width=75%/>
 <p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://www.flickr.com/photos/60164380@N03/48549024571/in/album-72157647281732710/">"Kererū"</a> contributed by <a href="https://www.flickr.com/photos/60164380@N03/albums/72157647281732710/with/48549024571/">Tony Stoddard</a> of <a href="https://kererudiscovery.org.nz/">KererūDiscovery</a> (<a href="https://twitter.com/KereruDiscovery">@KereruDiscovery</a>)</p>
@@ -20,7 +20,7 @@ devtools::install_github("G-Thomson/Manu")
 (Note: If this doesn't work, update `devtools` as Github recently changed the term it uses for the primary version of a source code repository)
 ## Usage
 ***
-The colour palettes are stored as a list named `manu_palettes`. Thus you can see a list of the avaliable palettes like so:
+The colour palettes are stored as a list named `manu_palettes`. Thus you can see a list of the available palettes like so:
 ```r
 library(Manu)
 names(manu_palettes)
@@ -100,7 +100,7 @@ c("#325756", "#7d9fc2", "#C582B2", "#51806a", "#4d5f8e", "#A092B7")
 <img src="man/figures/Kereru.png"/>
 <p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://twitter.com/edufk/status/1316594859373813760?s=20">"Kererū"</a> contributed by <a href="https://twitter.com/edufk">Gir</a></p>
 
-The original mock up of a NZ bird colour palettes posted on [Twitter](https://twitter.com/GojThomson/status/1316407456092893186?s=20) included a Kererū palette which many said they liked. It was ultimately deemed to have too much green in it but it remains in the package as `"Kereru_orig"` if people still wish to use it.
+The original mock-up of a NZ bird colour palettes posted on [Twitter](https://twitter.com/GojThomson/status/1316407456092893186?s=20) included a Kererū palette which many said they liked. It was ultimately deemed to have too much green in it, but it remains in the package as `"Kereru_orig"` if people still wish to use it.
 ```r
 c("#5a8b8a", "#337166", "#2C5F44", "#c47c94", "#43394C")
 ```
@@ -194,7 +194,7 @@ colorRampPalette(selected_colours)(100)
 
 ## Accessibility
 ***
-This package is intended to be a fun addition tool for `R` data visualisation and was limited to colours which could be extracted from the selected photos. Efforts were made to make these usable as colour palettes, but they do not conform to the Web Content Accessibility Guidelines (WCAG) with regards to clevels of colour contrast. 
+This package is intended to be a fun addition tool for `R` data visualisation and was limited to colours which could be extracted from the selected photos. Efforts were made to make these usable as colour palettes, but they do not conform to the Web Content Accessibility Guidelines (WCAG) with regards to levels of colour contrast. 
 
 The developer also does not experience colour vision deficiency but checked simulated palettes using the [Prismatic](https://emilhvitfeldt.github.io/prismatic/) package. If this is a consideration in your visualisation then the `Hihi`, `Kotare`, `Takapu` or `Tui` palettes might be the most suitable. 
 
@@ -203,9 +203,9 @@ The developer also does not experience colour vision deficiency but checked simu
 
 Thanks go to Dr Tara McAllister ([@taramcallister4](https://twitter.com/taramcallister4)) for conceiving of this idea and for helping to collect photos. Thank you also to all those on Twitter who shared their photos or expressed interest and support.
 
-The [`wesanderson`](https://github.com/karthik/wesanderson) colour paltette package, created by Karthik Ram ([@_inundata](https://twitter.com/_inundata)) should also be acknowledged as this package draws heavily from it. 
+The [`wesanderson`](https://github.com/karthik/wesanderson) colour palette package, created by Karthik Ram ([@_inundata](https://twitter.com/_inundata)) should also be acknowledged as this package draws heavily from it. 
 
-The logo is adapted from the [Pigeon](https://thenounproject.com/term/pigeon/136533/) icon by [Nicole Macdonald](https://www.behance.net/nicolemacdonald) and made avaliable under a Creative Commons CCBY lisense. Here colour and the title have been added.
+The logo is adapted from the [Pigeon](https://thenounproject.com/term/pigeon/136533/) icon by [Nicole Macdonald](https://www.behance.net/nicolemacdonald) and made available under a Creative Commons CCBY license. Here colour and the title have been added.
 
 ## Contribute
 ***
