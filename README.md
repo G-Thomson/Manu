@@ -209,4 +209,4 @@ The logo is adapted from the [Pigeon](https://thenounproject.com/term/pigeon/136
 
 ## Contribute
 ***
-If you would like to improve or add to this package feel free to file an issue or pull request of [Github](https://github.com/G-Thomson/Manu/) or contact [@GojThomson](https://twitter.com/GojThomson) on Twitter.
+If you would like to improve or add to this package feel free to file an issue or pull request on [Github](https://github.com/G-Thomson/Manu/) or contact [@GojThomson](https://twitter.com/GojThomson) on Twitter.
