@@ -77,8 +77,8 @@
 </h1></div>
 <hr>
 <p>New Zealand is home to a great number of native bird species, a majority being endemic to the islands. Many of these species are notable for their bright and beautiful plumage.</p>
-<p>Using photos of birds native to New Zealand, this <code>R</code> package contains a selection of colour palettes constructed by extracting distinct colours chracteristic of these birds.</p>
-<p>This package was the idea of Dr Tara McAllister (<a href="https://twitter.com/taramcallister4">@taramcallister4</a>) and is implemented like the<br><a href="https://github.com/karthik/wesanderson"><code>wesanderson</code></a> colour paltette package, created by Karthik Ram (<a href="https://twitter.com/_inundata">@_inundata</a>).</p>
+<p>Using photos of birds native to New Zealand, this <code>R</code> package contains a selection of colour palettes constructed by extracting distinct colours characteristic of these birds.</p>
+<p>This package was the idea of Dr Tara McAllister (<a href="https://twitter.com/taramcallister4">@taramcallister4</a>) and is implemented like the<br><a href="https://github.com/karthik/wesanderson"><code>wesanderson</code></a> colour palette package, created by Karthik Ram (<a href="https://twitter.com/_inundata">@_inundata</a>).</p>
 <img src="reference/figures/In_a_tree.jpg" width="75%/"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://www.flickr.com/photos/60164380@N03/48549024571/in/album-72157647281732710/">“Kererū”</a> contributed by <a href="https://www.flickr.com/photos/60164380@N03/albums/72157647281732710/with/48549024571/">Tony Stoddard</a> of <a href="https://kererudiscovery.org.nz/">KererūDiscovery</a> (<a href="https://twitter.com/KereruDiscovery">@KereruDiscovery</a>)
 </p>
@@ -96,7 +96,7 @@ Photo:<a href="https://www.flickr.com/photos/60164380@N03/48549024571/in/album-7
 <h2 class="hasAnchor">
 <a href="#usage" class="anchor"></a>Usage</h2>
 <hr>
-<p>The colour palettes are stored as a list named <code>manu_palettes</code>. Thus you can see a list of the avaliable palettes like so:</p>
+<p>The colour palettes are stored as a list named <code>manu_palettes</code>. Thus you can see a list of the available palettes like so:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">library</span>(Manu)</span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="kw">names</span>(manu_palettes)</span>
 <span id="cb2-3"><a href="#cb2-3"></a> [<span class="dv">1</span>] <span class="st">"Hihi"</span>         <span class="st">"Hoiho"</span>        <span class="st">"Kaka"</span>         <span class="st">"Kakapo"</span>       <span class="st">"Kakariki"</span>     <span class="st">"Kea"</span>          <span class="st">"Kereru"</span>       <span class="st">"Kereru_orig"</span>  <span class="st">"Korimako"</span>    </span>
@@ -192,7 +192,7 @@ Photo:<a href="https://www.flickr.com/photos/88123769@N02/9112326315">“Kea. Ne
 <img src="reference/figures/Kereru.png"><p style="font-size: 0.9rem;font-style: italic;">
 Photo:<a href="https://twitter.com/edufk/status/1316594859373813760?s=20">“Kererū”</a> contributed by <a href="https://twitter.com/edufk">Gir</a>
 </p>
-<p>The original mock up of a NZ bird colour palettes posted on <a href="https://twitter.com/GojThomson/status/1316407456092893186?s=20">Twitter</a> included a Kererū palette which many said they liked. It was ultimately deemed to have too much green in it but it remains in the package as <code>"Kereru_orig"</code> if people still wish to use it.</p>
+<p>The original mock-up of a NZ bird colour palettes posted on <a href="https://twitter.com/GojThomson/status/1316407456092893186?s=20">Twitter</a> included a Kererū palette which many said they liked. It was ultimately deemed to have too much green in it, but it remains in the package as <code>"Kereru_orig"</code> if people still wish to use it.</p>
 <div class="sourceCode" id="cb13"><pre class="downlit">
 <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"#5a8b8a"</span>, <span class="st">"#337166"</span>, <span class="st">"#2C5F44"</span>, <span class="st">"#c47c94"</span>, <span class="st">"#43394C"</span><span class="op">)</span></pre></div>
 </div>
@@ -320,7 +320,7 @@ Photo:<a href="https://www.flickr.com/photos/26231603@N06/5243000365">“Pohutuk
 <h2 class="hasAnchor">
 <a href="#accessibility" class="anchor"></a>Accessibility</h2>
 <hr>
-<p>This package is intended to be a fun addition tool for <code>R</code> data visualisation and was limited to colours which could be extracted from the selected photos. Efforts were made to make these usable as colour palettes, but they do not conform to the Web Content Accessibility Guidelines (WCAG) with regards to clevels of colour contrast.</p>
+<p>This package is intended to be a fun addition tool for <code>R</code> data visualisation and was limited to colours which could be extracted from the selected photos. Efforts were made to make these usable as colour palettes, but they do not conform to the Web Content Accessibility Guidelines (WCAG) with regards to levels of colour contrast.</p>
 <p>The developer also does not experience colour vision deficiency but checked simulated palettes using the <a href="https://emilhvitfeldt.github.io/prismatic/">Prismatic</a> package. If this is a consideration in your visualisation then the <code>Hihi</code>, <code>Kotare</code>, <code>Takapu</code> or <code>Tui</code> palettes might be the most suitable.</p>
 </div>
 <div id="acknowledgements" class="section level2">
@@ -328,8 +328,8 @@ Photo:<a href="https://www.flickr.com/photos/26231603@N06/5243000365">“Pohutuk
 <a href="#acknowledgements" class="anchor"></a>Acknowledgements</h2>
 <hr>
 <p>Thanks go to Dr Tara McAllister (<a href="https://twitter.com/taramcallister4">@taramcallister4</a>) for conceiving of this idea and for helping to collect photos. Thank you also to all those on Twitter who shared their photos or expressed interest and support.</p>
-<p>The <a href="https://github.com/karthik/wesanderson"><code>wesanderson</code></a> colour paltette package, created by Karthik Ram (<a href="https://twitter.com/_inundata">@_inundata</a>) should also be acknowledged as this package draws heavily from it.</p>
-<p>The logo is adapted from the <a href="https://thenounproject.com/term/pigeon/136533/">Pigeon</a> icon by <a href="https://www.behance.net/nicolemacdonald">Nicole Macdonald</a> and made avaliable under a Creative Commons CCBY lisense. Here colour and the title have been added.</p>
+<p>The <a href="https://github.com/karthik/wesanderson"><code>wesanderson</code></a> colour palette package, created by Karthik Ram (<a href="https://twitter.com/_inundata">@_inundata</a>) should also be acknowledged as this package draws heavily from it.</p>
+<p>The logo is adapted from the <a href="https://thenounproject.com/term/pigeon/136533/">Pigeon</a> icon by <a href="https://www.behance.net/nicolemacdonald">Nicole Macdonald</a> and made available under a Creative Commons CCBY license. Here colour and the title have been added.</p>
 </div>
 <div id="contribute" class="section level2">
 <h2 class="hasAnchor">
