@@ -173,7 +173,7 @@ c("#5FA1F7", "#83A552", "#3D4928", "#9B1F1A", "#B19F8E", "#4E0B0C")
 ```r
 c("#3399ff", "#666600", "#003399", "#999900")
 ```
-<img src="man/figures/Gloomy_nudi.png"/>
+<img src="man/figures/Gloomy_Nudi.png"/>
 <p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://www.flickr.com/photos/anna-barnett/4329688360/">"Tambja nudibranch pair"</a><span> by <a href="https://www.flickr.com/photos/anna-barnett/">Anna Barnett</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/" style="margin-right: 5px;">CC BY 2.0</a></p>
 
 ## Continuous colour palettes
