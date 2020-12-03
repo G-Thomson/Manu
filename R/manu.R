@@ -21,14 +21,15 @@ manu_palettes <- list(
   Titipounamu = c("#3E4331", "#AD6B17", "#66743B", "#D0C471", "#CCB62F", "#BAC4C2"),
   Tui = c("#7ACCD7", "#115896", "#7C6C65", "#4C4C53", "#BA2F00", "#21282F"),
   Pepetuna = c("#719E56", "#71702F", "#947163", "#623711", "#425266"),
-  Pohutukawa = c("#5FA1F7", "#83A552", "#3D4928", "#9B1F1A", "#B19F8E", "#4E0B0C")
+  Pohutukawa = c("#5FA1F7", "#83A552", "#3D4928", "#9B1F1A", "#B19F8E", "#4E0B0C"),
+  Gloomy_Nudi = c("#3399ff", "#666600", "#003399", "#999900")
 )
 
 #' Select Manu palette
 #'
 #' This function returns colour palettes derived from photos of birds native to New Zealand
 #'
-#' @param name Name of desired palette. Choices are: \code{Hihi}, \code{Hoiho}, \code{Kaka}, \code{Kakariki}, \code{Kea}, \code{Kereru}, \code{Kereru_orig}, \code{Korimako}, \code{Korora}, \code{Kotare}, \code{Putangitangi}, \code{Takahe}, \code{Takapu}, \code{Titipounamu}, \code{Tui}, \code{Pepetuna} and \code{Pohutukawa}
+#' @param name Name of desired palette. Choices are: \code{Hihi}, \code{Hoiho}, \code{Kaka}, \code{Kakariki}, \code{Kea}, \code{Kereru}, \code{Kereru_orig}, \code{Korimako}, \code{Korora}, \code{Kotare}, \code{Putangitangi}, \code{Takahe}, \code{Takapu}, \code{Titipounamu}, \code{Tui}, \code{Pepetuna}, \code{Gloomy_Nudi} and \code{Pohutukawa}
 #'
 #' @return A vector of colours.
 #' @export

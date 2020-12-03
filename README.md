@@ -169,6 +169,13 @@ c("#5FA1F7", "#83A552", "#3D4928", "#9B1F1A", "#B19F8E", "#4E0B0C")
 <img src="man/figures/Pohutukawa.png"/>
 <p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://www.flickr.com/photos/26231603@N06/5243000365">"Pohutukawa"</a><span> by <a href="https://www.flickr.com/photos/26231603@N06">iainurquhart</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY 2.0</a></p>
 
+### *Tambja kushimotoensis* - Gloomy nudibranch
+```r
+c("#3399ff", "#666600", "#003399", "#999900")
+```
+<img src="man/figures/Gloomy_nudi.png"/>
+<p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://www.flickr.com/photos/anna-barnett/4329688360/">"Tambja nudibranch pair"</a><span> by <a href="https://www.flickr.com/photos/anna-barnett/">Anna Barnett</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/" style="margin-right: 5px;">CC BY 2.0</a></p>
+
 ## Continuous colour palettes
 ***
 The colour palettes in this package are designed for discrete variables. However if your data is continuous and needs to be plotted as such (e.g. heatmaps) you can use the `colorRampPalette()` already part of your `R` installation to create a colour gradient.
