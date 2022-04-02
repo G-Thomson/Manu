@@ -24,8 +24,9 @@ The colour palettes are stored as a list named `manu_palettes`. Thus you can see
 ```r
 library(Manu)
 names(manu_palettes)
- [1] "Hihi"         "Hoiho"        "Kaka"         "Kakapo"       "Kakariki"     "Kea"          "Kereru"       "Kereru_orig"  "Korimako"    
-[10] "Korora"       "Kotare"       "Putangitangi" "Takahe"       "Takapu"       "Titipounamu"  "Tui"          "Pepetuna"     "Pohutukawa"  
+ [1] "Hihi"         "Hoiho"        "Kaka"         "Kakapo"       "Kakariki"     "Kea"          "Kereru"       "Kereru_orig"  "Kiwi"         "Kokako"    
+[11] "Korimako"     "Korora"       "Kotare"       "Putangitangi" "Takahe"       "Takapu"       "Titipounamu"  "Tui"          "Pepetuna"     "Pohutukawa"
+[21] "Gloomy_Nudi" 
 ```
 
 A helper function `get_pal()` returns the desited colour palette as a vector: For example:
