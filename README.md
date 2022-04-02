@@ -109,6 +109,25 @@ The original mock-up of a NZ bird colour palettes posted on [Twitter](https://tw
 ```r
 c("#5a8b8a", "#337166", "#2C5F44", "#c47c94", "#43394C")
 ```
+
+### Kiwi  - *Apteryx mantelli* - North Island brown kiwi
+```r
+c("#3e2926", "#634c54", "#8b7162", "#a9a196", "#cfae9f", "#d3bac0")
+```
+
+<img src="man/figures/Kiwi.png"/>
+<p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://www.flickr.com/photos/larrywkoester/47784811181">"Kiwi at Kiwi Birdlife Park Queenstown"</a><span> by <a href="https://www.flickr.com/photos/larrywkoester/">Larry Koester</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/" style="margin-right: 5px;">CC BY 2.0</a></p>
+
+### Kōkako - *Callaeas wilsoni*
+```r
+c("#121f25", "#0042d6", "#5e89ab", "#b9d5eb", "#746455")
+```
+
+<img src="man/figures/Kokako.png"/>
+
+<p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://scontent.fijd1-1.fna.fbcdn.net/v/t1.6435-9/118766110_3281454985224477_4886199307643428532_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=973b4a&_nc_ohc=rx4kRa_Mq0UAX-DTPdH&_nc_ht=scontent.fijd1-1.fna&oh=00_AT-LdFdFZbRqWiK09KKAV3AYQmTOPYDd6p-o9cQsuWEatg&oe=626C376F">"Miharo & Freedom"</a> sourced from <a href="https://www.mtpirongia.org.nz/">Pirongia Te Aroaro o Kahu Restoration Society</a></p>
+
+
 ### Korimako - *Anthornis melanura* - NZ bellbird
 ```r
 c("#757b16","#4F651D",  "#798C8B", "#2F638F", "#091A26", "#490B0A")
@@ -130,7 +149,7 @@ c("#214d65", "#287DAB", "#E5BF86", "#B09771", "#624B27", "#CACFD0")
 <img src="man/figures/Kotare.png"/>
 <p style="font-size: 0.9rem;font-style: italic;">Photo:<a href="https://www.flickr.com/photos/7725552@N06/39520482181">"Sacred Kingfisher (Todiramphus sanctus)"</a><span> by <a href="https://www.flickr.com/photos/7725552@N06">Wade Tregaskis</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC 2.0</a></p>
 
-### Pūtangitangi - *Tadorna variegata* -paradise shelduck
+### Pūtangitangi - *Tadorna variegata* - Paradise shelduck
 ```r
 c("#AA988A", "#B66A40", "#2F414B", "#2B4B3C", "#7A3520", "#7B8BA5")
 ```
@@ -216,7 +235,7 @@ colorRampPalette(selected_colours)(100)
 ***
 This package is intended to be a fun addition tool for `R` data visualisation and was limited to colours which could be extracted from the selected photos. Efforts were made to make these usable as colour palettes, but they do not conform to the Web Content Accessibility Guidelines (WCAG) with regards to levels of colour contrast. 
 
-The developer also does not experience colour vision deficiency but checked simulated palettes using the [Prismatic](https://emilhvitfeldt.github.io/prismatic/) package. If this is a consideration in your visualisation then the `Hihi`, `Kotare`, `Takapu` or `Tui` palettes might be the most suitable. 
+The developer also does not experience colour vision deficiency but checked simulated palettes using the [Prismatic](https://emilhvitfeldt.github.io/prismatic/) package. If this is a consideration in your visualisation then the `Hihi`, `Kotare`, `Takapu`,  `Kokako` or `Tui` palettes might be the most suitable. 
 
 ## Acknowledgements
 ***
